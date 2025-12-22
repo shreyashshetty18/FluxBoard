@@ -1,8 +1,8 @@
 :root{
     --pri:#000000;
-    --sec:#52057B;
-    --tri1:#892CDC;
-    --tri2:#BC6FF1;
+    --sec:#865DFF;
+    --tri1:#dc75fb;
+    --tri2:#fcaffb;
 }
 
 @font-face {
@@ -26,9 +26,22 @@
 html,body {
     width: 100%;
     height: 100%;
+    background-color: var(--pri);
 }
 
 #main{
     height: 100%;
     width: 100%;
+}
+h1{
+    color: var(--sec);
+    font-size: 5rem;
+}
+h2{
+    color: var(--tri1);
+    font-size: 2rem;
+}
+p{
+    color: var(--tri2);
+    font-size: 4rem;
 }
