@@ -1,3 +1,10 @@
+:root{
+    --pri:#000000;
+    --sec:#52057B;
+    --tri1:#892CDC;
+    --tri2:#BC6FF1;
+}
+
 @font-face {
     font-family: light;
     src: url(./AeonikTRIAL-Light.otf);
@@ -7,7 +14,7 @@
     src: url(./AeonikTRIAL-Bold.otf);
 }
 @font-face {
-    font-family: regular;
+    font-family: normal;
     src: url(./AeonikTRIAL-Regular.otf);
 }
 *{
