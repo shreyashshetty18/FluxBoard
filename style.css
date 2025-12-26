@@ -4,7 +4,6 @@
     --tri1:#dc75fb;
     --tri2:#fcaffb;
 }
-
 @font-face {
     font-family: light;
     src: url(./AeonikTRIAL-Light.otf);
@@ -33,13 +32,14 @@ html,body {
     height: 100%;
     width: 100%;
 }
+
 nav{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 60px;
-    background-color: var(--tri1);
+    background-color: var(--sec);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,17 +54,12 @@ section.allElems{
     padding: 40px;
     padding-top: 80px;
 }
-.logo{
-    height: 40px;
-    width: auto;
-    margin-right: 12px;
-    cursor: pointer;
+
+section.allElems{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 80px;
+    background-color: var(--tri1);
 }
 
-h1{
-    color: #fff;
-    font-family: normal, sans-serif;
-    font-size: 16px;
-    margin: 0 8px;
-    cursor: pointer;
-}
