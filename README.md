@@ -2,6 +2,8 @@
 
 A small, polished personal dashboard built with HTML, CSS and JavaScript to help you stay productive.
 
+## 🔗 Live Link -> https://fluxboard.netlify.app/
+
 ## ✨ Features
 - ✅ To-Do List (persisted in `localStorage`)
 - 🗓️ Daily Planner (hourly notes, saved in `localStorage`)
